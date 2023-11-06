@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/home/mary/IdeaProjects/Laba2/src</OriginalElement>
+  <nodes>
+    <node x="1504.1134259259259" y="146.0">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="40.951388888888914" y="146.0">ru.ifmo.se.pokemon.SpecialMove</node>
+    <node x="878.9513888888889" y="234.0">me.masha.Attacks.Waterfall</node>
+    <node x="528.4625187406295" y="322.0">me.masha.Main</node>
+    <node x="-76.5" y="469.0">me.masha.Pokemons.Marill</node>
+    <node x="-76.5" y="387.0">me.masha.Pokemons.Azurill</node>
+    <node x="1016.9513888888889" y="234.0">me.masha.Attacks.Rest</node>
+    <node x="1263.951388888889" y="234.0">me.masha.Attacks.Refresh</node>
+    <node x="556.9513888888889" y="234.0">me.masha.Attacks.Sludge_wave</node>
+    <node x="38.0" y="234.0">me.masha.Attacks.Flamethrower</node>
+    <node x="40.5" y="387.0">me.masha.Pokemons.Fomantis</node>
+    <node x="725.9513888888889" y="234.0">me.masha.Attacks.Leaf_Blade</node>
+    <node x="221.9513888888889" y="234.0">me.masha.Attacks.Poison_Jab</node>
+    <node x="669.3263888888889" y="-14.0">ru.ifmo.se.pokemon.Move</node>
+    <node x="379.95138888888886" y="234.0">me.masha.Attacks.Petal_Blizzard</node>
+    <node x="50.5" y="469.0">me.masha.Pokemons.Lurantis</node>
+    <node x="-61.0" y="549.0">me.masha.Pokemons.Azumarill</node>
+    <node x="1576.951388888889" y="234.0">me.masha.Attacks.Confide</node>
+    <node x="876.8634259259259" y="307.0">me.masha.Attacks</node>
+    <node x="71.75" y="307.0">me.masha.Pokemons</node>
+    <node x="183.5" y="387.0">me.masha.Pokemons.Seviper</node>
+    <node x="376.82638888888886" y="146.0">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="1120.951388888889" y="234.0">me.masha.Attacks.Tail_Whip</node>
+    <node x="-103.0" y="234.0">ru.ifmo.se.pokemon.FireMove</node>
+    <node x="122.70138888888891" y="66.0">ru.ifmo.se.pokemon.DamageMove</node>
+    <node x="1392.951388888889" y="234.0">me.masha.Attacks.Swords_Dance</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="me.masha.Pokemons.Lurantis" target="me.masha.Pokemons" relationship="INNER_CLASS">
+      <point x="28.0" y="-14.0" />
+      <point x="134.5" y="483.0" />
+      <point x="173.0" y="483.0" />
+      <point x="173.0" y="361.0" />
+      <point x="137.25" y="361.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Refresh" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="-27.25" y="-14.0" />
+      <point x="1291.201388888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Leaf_Blade" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-33.25" y="-14.0" />
+      <point x="759.2013888888889" y="214.0" />
+      <point x="454.8263888888889" y="214.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Pokemons.Lurantis" target="me.masha.Pokemons.Fomantis" relationship="GENERALIZATION">
+      <point x="-5.467016491754123" y="-13.76799100449773" />
+      <point x="101.03298350824588" y="454.36469265367316" />
+      <point x="101.5" y="454.36469265367316" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Rest" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="-21.0" y="-14.0" />
+      <point x="1037.951388888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Flamethrower" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="39.0" y="-14.0" />
+      <point x="155.0" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Petal_Blizzard" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="39.25000000000006" y="-14.0" />
+      <point x="497.7013888888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Poison_Jab" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="34.5" y="-14.0" />
+      <point x="325.4513888888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Swords_Dance" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="-41.0" y="-14.0" />
+      <point x="1433.951388888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Pokemons.Azurill" target="me.masha.Pokemons" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="-28.0" y="361.0" />
+      <point x="137.25" y="361.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Waterfall" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="29.5" y="-14.0" />
+      <point x="967.4513888888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.SpecialMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="114.45138888888891" y="120.0" />
+      <point x="200.2013888888889" y="120.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Rest" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="21.0" y="-14.0" />
+      <point x="1079.951388888889" y="194.0" />
+      <point x="1574.6134259259259" y="194.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Tail_Whip" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="-30.75" y="-14.0" />
+      <point x="1151.701388888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.PhysicalMove" target="ru.ifmo.se.pokemon.DamageMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="454.8263888888889" y="120.0" />
+      <point x="200.2013888888889" y="120.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Pokemons.Azumarill" target="me.masha.Pokemons" relationship="INNER_CLASS">
+      <point x="30.0" y="-14.0" />
+      <point x="29.0" y="563.0" />
+      <point x="301.0" y="563.0" />
+      <point x="301.0" y="361.0" />
+      <point x="137.25" y="361.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Confide" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="-27.75" y="-14.0" />
+      <point x="1604.701388888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Sludge_wave" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="37.25" y="-14.0" />
+      <point x="668.7013888888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Refresh" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="27.25" y="-14.0" />
+      <point x="1345.701388888889" y="194.0" />
+      <point x="1574.6134259259259" y="194.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Poison_Jab" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="-34.5" y="-14.0" />
+      <point x="256.4513888888889" y="214.0" />
+      <point x="114.45138888888891" y="214.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Flamethrower" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="-39.0" y="-14.0" />
+      <point x="77.0" y="214.0" />
+      <point x="114.45138888888891" y="214.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Pokemons.Marill" target="me.masha.Pokemons.Azurill" relationship="GENERALIZATION">
+      <point x="3.6334332833583147" y="-11.064842578710682" />
+      <point x="-27.366566716641685" y="442.0" />
+      <point x="-28.0" y="442.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.FireMove" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-42.5" y="214.0" />
+      <point x="114.45138888888891" y="214.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.StatusMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1574.6134259259259" y="40.0" />
+      <point x="715.3263888888889" y="40.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Waterfall" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-29.5" y="-14.0" />
+      <point x="908.4513888888889" y="214.0" />
+      <point x="454.8263888888889" y="214.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Swords_Dance" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="41.0" y="-14.0" />
+      <point x="1515.951388888889" y="194.0" />
+      <point x="1574.6134259259259" y="194.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Pokemons.Seviper" target="me.masha.Pokemons" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="237.0" y="361.0" />
+      <point x="137.25" y="361.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Pokemons.Azumarill" target="me.masha.Pokemons.Marill" relationship="GENERALIZATION">
+      <point x="-30.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Petal_Blizzard" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-39.24999999999994" y="-14.0" />
+      <point x="419.2013888888889" y="214.0" />
+      <point x="454.8263888888889" y="214.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="ru.ifmo.se.pokemon.DamageMove" target="ru.ifmo.se.pokemon.Move" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="200.2013888888889" y="40.0" />
+      <point x="715.3263888888889" y="40.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Leaf_Blade" target="me.masha.Attacks" relationship="INNER_CLASS">
+      <point x="33.25" y="-14.0" />
+      <point x="825.7013888888889" y="292.0" />
+      <point x="931.3634259259259" y="292.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Confide" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="27.75" y="-14.0" />
+      <point x="1660.201388888889" y="194.0" />
+      <point x="1574.6134259259259" y="194.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Sludge_wave" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="-37.25" y="-14.0" />
+      <point x="594.2013888888889" y="214.0" />
+      <point x="454.8263888888889" y="214.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Pokemons.Fomantis" target="me.masha.Pokemons" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="101.5" y="361.0" />
+      <point x="137.25" y="361.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Pokemons.Marill" target="me.masha.Pokemons" relationship="INNER_CLASS">
+      <point x="-27.98425787106447" y="-15.119565217391369" />
+      <point x="-58.98425787106447" y="442.0" />
+      <point x="-87.0" y="442.0" />
+      <point x="-87.0" y="361.0" />
+      <point x="137.25" y="361.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="me.masha.Attacks.Tail_Whip" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="30.75" y="-14.0" />
+      <point x="1213.201388888889" y="194.0" />
+      <point x="1574.6134259259259" y="194.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7366096079514081" showDependencies="false" x="792.5" y="281.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
