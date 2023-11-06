@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'application'
+    id("com.github.johnrengelman.shadow") version "8.0.0"
+}
+
+repositories {
+    mavenCentral()
+}
+mainClassName = "me.masha.Main"
+jar {
+    manifest {
+        attributes "Main-Class": "$mainClassName"
+    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation files('libs/Pokemon.jar')
+}
+
