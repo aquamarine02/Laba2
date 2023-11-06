@@ -2,10 +2,12 @@ package me.masha;
 import ru.ifmo.se.pokemon.*;
 import java.lang.Math;
 public class Attacks {
+
     static class Sludge_wave extends PhysicalMove {
         public Sludge_wave(){
             super(Type.POISON, 95.0, 100.0);
         }
+        @Override
         protected double calcBaseDamage(Pokemon att, Pokemon def) {
             double damage = super.calcBaseDamage(att, def);
             if (Math.random() <= 0.1){
@@ -22,6 +24,7 @@ public class Attacks {
         public Flamethrower(){
             super(Type.FIRE, 90.0, 100.0);
         }
+        @Override
         protected double calcBaseDamage(Pokemon att, Pokemon def) {
             double damage = super.calcBaseDamage(att, def);
             if (Math.random() <= 0.1){
@@ -39,6 +42,7 @@ public class Attacks {
         public Poison_Jab(){
             super(Type.POISON, 80.0, 100.0);
         }
+        @Override
         protected double calcBaseDamage(Pokemon att, Pokemon def) {
             double damage = super.calcBaseDamage(att, def);
             if (Math.random() <= 0.3){
@@ -56,7 +60,7 @@ public class Attacks {
         public Rest() {
             super(Type.PSYCHIC, 0, 0);
         }
-
+        @Override
         protected void applySelfEffects(Pokemon att) {
             Effect Rest = new Effect().condition(Status.SLEEP);
             Rest.turns(2);//.stat(Stat.HP, 73);
@@ -71,6 +75,7 @@ public class Attacks {
         public Leaf_Blade(){
             super(Type.GRASS, 90.0, 100.0);
         }
+        @Override
         protected double calcBaseDamage(Pokemon att, Pokemon def) {
             double damage = super.calcBaseDamage(att, def);
             if (Math.random() <= 0.125){
@@ -87,6 +92,7 @@ public class Attacks {
         public Swords_Dance() {
             super(Type.NORMAL, 0, 0);
         }
+        @Override
         protected void applyOppEffects(Pokemon def) {
             def.setMod(Stat.ATTACK, +2);
         }
@@ -98,9 +104,9 @@ public class Attacks {
         public Petal_Blizzard(){
             super(Type.WATER, 80.0, 100.0);
         }
+        @Override
         protected double calcBaseDamage(Pokemon att, Pokemon def) {
-            double damage = super.calcBaseDamage(att, def);
-            return damage;
+            return super.calcBaseDamage(att, def);
         }
         protected String describe() {
             return "использует способность Petal Blizzard";
@@ -110,6 +116,7 @@ public class Attacks {
         public Waterfall(){
             super(Type.WATER, 80.0, 100.0);
         }
+        @Override
         protected double calcBaseDamage(Pokemon att, Pokemon def) {
             double damage = super.calcBaseDamage(att, def);
             if (Math.random() <= 0.2){
@@ -126,6 +133,7 @@ public class Attacks {
         public Tail_Whip() {
             super(Type.NORMAL, 0, 100);
         }
+        @Override
         protected void applyOppEffects(Pokemon def) {
             def.setMod(Stat.DEFENSE, -1);
         }
@@ -137,6 +145,7 @@ public class Attacks {
         public Refresh() {
             super(Type.NORMAL, 0, 0);
         }
+        @Override
         protected void applySelfEffects(Pokemon att) {
             Effect Refresh = new Effect();
             Refresh.clear();
@@ -149,6 +158,7 @@ public class Attacks {
         public Confide() {
             super(Type.NORMAL, 0.0, 0.0);
         }
+        @Override
         protected void applyOppEffects(Pokemon deff) {
             deff.setMod(Stat.SPECIAL_ATTACK, -1);
         }
